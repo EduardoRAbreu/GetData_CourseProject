@@ -21,5 +21,5 @@
 ## 8) now the script replaces the numeric values found in the activity column with the appropriate name as provided by the activity_labels.txt file
 ## 9) finally, the script uses melt and dcast from the reshape2 package to create a tidy data set
 
-# Please note that the tidy data set prepared by the script is the narrow form and the data are summarized by subject_id, then by activity and that
+# Please note that the tidy data set prepared by the script is the wide form and the data are summarized by subject_id, then by activity and that
 # the data provided for each observation is the mean of the normalized observation data from the original data set.
